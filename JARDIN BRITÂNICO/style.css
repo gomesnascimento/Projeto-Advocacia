@@ -1,0 +1,38 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.largura-limitada {
+    width: 1024px;
+    margin: 0 auto;
+}
+.topo, .rodape{
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #1d6e4d ;
+    color: #fff;
+    font-size: 20px;
+}
+body { 
+    font-family: sans-serif;
+}
+
+.area { 
+    width: calc(100% - 60px);
+    margin: 20px 20px ;
+}
+.apresentação img, .area p, .area-tres-imagens {
+    width: 100%;
+    margin: 15px 0;
+
+}
+.area-tres-imagens {
+    display: flex;
+}
+.galeria img {
+    /* width: calc((100% / 3) - 3px); */
+    width: 35%;
+    margin: 0 1.5px
+}
